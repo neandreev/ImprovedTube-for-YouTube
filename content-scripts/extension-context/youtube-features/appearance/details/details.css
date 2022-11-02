@@ -53,8 +53,8 @@ html[it-hide-date='true'] #info #count + #info-strings>#dot {
 HIDE LIKE BUTTON
 --------------------------------------------------------------*/
 
-html[it-hide-like-button='hidden'] #info #top-level-buttons-computed ytd-toggle-button-renderer:nth-child(1),
-html[it-hide-like-button='icons_only'] #top-level-buttons-computed ytd-toggle-button-renderer:nth-child(1) div.cbox {
+html[it-hide-like-button='hidden'] #segmented-like-button,
+html[it-hide-like-button='icons_only'] #segmented-like-button div.cbox {
 	display: none;
 }
 
@@ -69,8 +69,8 @@ html[it-hide-like-button='icons_only'] #top-level-buttons-computed ytd-toggle-bu
 HIDE DISLIKE BUTTON
 --------------------------------------------------------------*/
 
-html[it-hide-dislike-button='hidden'] #top-level-buttons-computed ytd-toggle-button-renderer:nth-child(2),
-html[it-hide-dislike-button='icons_only'] #top-level-buttons-computed ytd-toggle-button-renderer:nth-child(2) div.cbox {
+html[it-hide-dislike-button='hidden'] #segmented-dislike-button,
+html[it-hide-dislike-button='icons_only'] #segmented-dislike-button div.cbox {
 	display: none;
 }
 
